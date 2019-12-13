@@ -6,7 +6,6 @@ $("button").click(function(){
 
   var dataFilter = $(this).data('filter');
 
-  alert("Hello");
   if(dataFilter == "all") {
       $(".filter ul").show();
   }
