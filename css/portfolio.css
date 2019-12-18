@@ -1,0 +1,140 @@
+
+/*Portfolio section*/
+/*filter buttons*/
+.filter {
+  text-align: center;
+  width: 100%;
+}
+
+.filter li {
+	display: inline-block;
+	padding: 5px
+  style: none;
+}
+
+
+li{
+  display: inline;
+  list-style: none;
+}
+
+/* Style the buttons */
+.btn {
+  border: 1px solid #eaeaea;
+  padding: 12px 16px;
+  background-color: white;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  list-style: underline;
+   color: red;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after rows */
+.items:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*image container with image and code logos*/
+
+.itemsContainer {
+  width: 100%;
+  display: flex;
+  border: 1px solid black;
+  margin: 0px;
+}
+
+.items {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+}
+
+.items li {
+  list-style: none;
+  max-width: 33%;
+}
+
+.item {
+  border: 1px solid black;
+  text-align: center;
+  width: 85%;
+  height: 80%;
+  background-color: white;
+  display: block;
+  padding: 15px;
+}
+
+
+.item img{
+  width: 100%;
+}
+
+
+/*icons under image*/
+/*container for icons*/
+.img-list {
+  display: flex;
+  padding-left: 5px;
+}
+
+.img-list a {
+  padding-top: 10x;
+}
+
+.img-list i {
+  padding: 20px 5px;
+}
+
+.item-img {
+  padding: 5px;
+  width: auto;
+  height: 50px;
+}
+
+.item-imgjq {
+  padding: 5px 5px;
+  width: auto;
+  height: 50px;
+}
+
+
+.github {
+  padding: 15px 5px;
+}
+/*Copyright section*/
+
+@media screen and (min-width: 320px) {
+   .copyright p {
+    font-size: 12px;
+	   background-color: #e74c3c;
+	   color: #fff;
+     border: 1px solid red;
+     text-align: center !important;
+   }
+
+   @media screen and (min-width: 1000px) {
+   .copyright p {
+    font-size: 24px;
+     background-color: #e74c3c;
+     color: #fff;
+     border: 1px solid red;
+     text-align: center !important;
+   }

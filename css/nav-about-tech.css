@@ -1,0 +1,190 @@
+body {
+	font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    letter-spacing: 1px;  
+    font-family: 'Fira Sans', Sans-Serif;
+   font-size: 15px;
+   box-sizing: border-box;
+}
+
+/*slides and title on page*/
+.slides-container {
+  width: 100%;
+}
+
+.slides-container img {
+  max-width: 33%;
+  height: auto;
+  width:500px;
+  height:500px;"
+}
+
+
+.titleMessage {
+	  position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 20%;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.titleMessage .heading p {
+	  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 3px 3px black;
+    font-weight: 100;
+    letter-spacing: 7px;
+    margin-top: 25px;
+}
+
+.titleMessage .heading .main {
+	font-size: 50px;
+}
+
+.titleMessage .heading .sub {
+	font-size: 38px;
+}
+
+
+/*Navigation menu*/
+#navigation {
+  background-color: #e74c3c;
+  width: 100%;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#navigation li {
+  padding: 0 10px;
+  padding-left: 5px;
+  list-style: none;
+  display: inline;
+}
+
+#navigation li a {
+  color: #fff;
+}
+
+.fixedNav #navigation {
+  position: fixed;
+  top: 0;
+}
+
+.nav-name {
+  text-decoration: none;
+  font-family: 'Great Vibes', cursive;
+  font-size: 35px;
+}
+
+.nav-item {}
+.nav-link {}
+
+.navbar ul {
+  color: #fff;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  text-decoration: none;
+}
+
+
+/*About section */
+
+#about {
+  max-width: 100%;
+}
+
+.aboutImage {
+	max-width: 100%;
+  float: left;
+  padding: 20px;
+}
+
+.aboutme {
+  max-width: 90%;
+  text-align: left;
+  padding: 35px;
+}
+
+.aboutme h2 {
+  text-align: center;
+  font-family: 'Fira Sans';
+  font-size: 35px;
+}
+
+.aboutme h4 {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Fira Sans';
+}
+
+.aboutme p {
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Fira Sans';
+  width: 95%;
+  display:inline;
+  line-height: 30px;
+}
+
+/*Tech skills*/
+
+#skills {
+  display: inline-block;
+  background-color: #e74c3c;
+  color: #fff;
+  width: auto;
+  height: 350px;
+}
+
+.contact {
+	background-color: #e74c3c;
+}
+
+.skillstitle {
+  text-align: center;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 20px;
+
+.skill h4 {
+ font-size: 20px;
+  }
+
+.skill h6 {
+    font-size: 10px;
+    align-items: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

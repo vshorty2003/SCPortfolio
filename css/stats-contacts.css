@@ -1,0 +1,48 @@
+/*Stats section*/
+.stats {
+  display: flex;
+  justify-content: center;
+}
+
+.faicons {
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+  font-size: 50px;
+  color: #e74c3c;
+}
+
+.number {
+	font-size: 35px !important;
+	color: black;
+}
+
+.text {
+	font-size: 25px !important;
+	color: black;
+}
+
+/*Contact section*/
+
+#contact{
+  text-align: center;
+  color: white;
+  background-color: #e74c3c;
+  padding: 25px;
+}
+
+a.contactButton {
+	color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.contactButton:hover {
+	text-decoration: none;
+	color: #e74c3c;
+	background-color: #fff;
+}
